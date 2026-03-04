@@ -51,56 +51,70 @@ export const resume: Resume = {
   personal: {
     name: "Quynh Le",
     title: "Senior Fullstack Developer",
-    avatar: "/images/avatar.jpg",
+    avatar: "/images/avatar-v2.jpg",
     summary:
-      "Passionate fullstack developer with 12+ years of experience building scalable web and mobile applications. Proven track record of leading teams, architecting complex systems, and delivering high-impact products across diverse technology stacks.",
+      "12+ years building web and mobile products across Healthcare, Education, and Logistics. Tech lead at SpiderBox Design. Passionate about AI-powered development.",
     location: "Vietnam",
-    email: "your.email@example.com",
-    phone: "+84 xxx xxx xxx",
+    email: "quynhlx@icloud.com",
+    phone: "+84 388 166 199",
     socials: {
-      github: "https://github.com/yourusername",
-      linkedin: "https://linkedin.com/in/yourusername",
+      github: "https://github.com/quynhlx",
     },
   },
   experience: [
     {
-      company: "Company Name",
-      role: "Senior Fullstack Developer",
-      period: "2020 - Present",
+      company: "SpiderBox Design",
+      role: "Senior Fullstack Developer / Tech Lead",
+      period: "2019 - Present",
       description:
-        "Leading development of enterprise-scale web applications and microservices architecture.",
+        "Senior developer and tech lead at SpiderBox. Building scalable web and mobile products for Healthcare and Education sectors. Pioneering the integration of AI Coding and AI Agents to enhance team productivity and delivery.",
       highlights: [
-        "Architected and led migration from monolith to microservices, reducing deployment time by 70%",
-        "Mentored team of 5 junior developers, establishing code review practices and CI/CD pipelines",
-        "Designed and implemented real-time data processing pipeline handling 10K+ events/second",
+        "Core member in designing architecture and technical solutions for SpiderBox's product ecosystem",
+        "Tech Lead for major Healthcare (CompanyMedicalService) and Education (MagicMap, Nimbu) projects",
+        "Built cross-platform mobile apps serving 100K+ users during COVID (Health-E Passport)",
+        "Mentored new team members, establishing code review practices and CI/CD pipelines",
+        "Championed adoption of AI Coding and AI Agents to accelerate development workflows",
       ],
-      techStack: ["React", "NestJS", "PostgreSQL", "Docker", "K8S"],
+      techStack: [".NET Core", "NestJS", "PostgreSQL", "React", "Angular", "Docker", "K8S"],
     },
     {
-      company: "Previous Company",
-      role: "Fullstack Developer",
-      period: "2017 - 2020",
+      company: "laptrinhvien.io",
+      role: "Technical Instructor",
+      period: "2019 - 2020",
       description:
-        "Developed and maintained multiple client-facing web and mobile applications.",
+        "Part-time instructor at a developer training center, teaching modern web technologies to aspiring developers.",
       highlights: [
-        "Built cross-platform mobile app with React Native serving 50K+ users",
-        "Implemented automated testing pipeline reducing bug reports by 40%",
-        "Optimized database queries resulting in 3x improvement in API response times",
+        "Taught courses on Angular and NestJS frameworks",
+        "Designed curriculum covering modern fullstack development practices",
       ],
-      techStack: ["Angular", ".NET", "MSSQL", "React Native"],
+      techStack: ["Angular", "NestJS", "TypeScript"],
     },
     {
-      company: "Earlier Company",
+      company: "Janeto ICT (ERC Vietnam)",
+      role: "Fullstack Developer / Team Lead",
+      period: "2016 - 2019",
+      description:
+        "Developed and maintained multiple client-facing web and mobile applications for US-based clients. Led development teams and managed project delivery.",
+      highlights: [
+        "Built and delivered Logistics ERP, House Rental, and Virtual Data Room applications",
+        "Built cross-platform mobile app with Expo serving 50K+ users",
+        "Led migration of legacy MVC systems to modern Web API + Angular architecture",
+        "Managed and led multiple dev teams as technical lead",
+      ],
+      techStack: ["Node.js", "Angular", "ElasticSearch", ".NET Core", "Web API", "MSSQL", "MongoDB"],
+    },
+    {
+      company: "ValueComUSA",
       role: "Software Developer",
-      period: "2014 - 2017",
+      period: "2014 - 2016",
       description:
-        "Full-cycle development of web applications from requirements gathering to deployment.",
+        "Full-cycle development of web and mobile applications at a US-based software outsourcing company. From requirements gathering to deployment.",
       highlights: [
-        "Developed enterprise resource planning system used by 200+ employees",
-        "Integrated third-party payment and logistics APIs",
-        "Established Git workflow and code review process for the team",
+        "Developed enterprise web applications using .NET MVC stack",
+        "Built iOS applications for US clients",
+        "Handled full software development lifecycle from requirements to deployment",
       ],
-      techStack: [".NET", "Angular", "MSSQL"],
+      techStack: [".NET", "MVC", "MSSQL", "iOS"],
     },
   ],
   skillCategories: [
@@ -148,10 +162,10 @@ export const resume: Resume = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Computer Science",
+      school: "Posts and Telecommunications Institute of Technology",
+      degree: "Bachelor of Information Technology",
       period: "2010 - 2014",
-      description: "Focused on software engineering and distributed systems.",
+      description: "Focused on software engineering and telecommunications systems.",
     },
   ],
 };

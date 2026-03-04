@@ -34,7 +34,7 @@ export default function Hero() {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Avatar */}
         <div className="mb-8 flex justify-center">
-          <div className="relative w-36 h-36 rounded-full overflow-hidden ring-4 ring-primary/50 shadow-[0_0_40px_rgba(108,99,255,0.3)]">
+          <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden ring-4 ring-primary/50 shadow-[0_0_40px_rgba(108,99,255,0.3)]">
             <Image
               src={avatar}
               alt={name}

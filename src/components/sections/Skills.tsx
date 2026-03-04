@@ -1,6 +1,5 @@
 import { resume } from "@/data/resume";
 import ScrollReveal from "@/components/ui/ScrollReveal";
-import SkillBar from "@/components/ui/SkillBar";
 
 export default function Skills() {
   return (
@@ -15,7 +14,7 @@ export default function Skills() {
           </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {resume.skillCategories.map((category, index) => (
             <ScrollReveal key={category.label} delay={index * 150}>
               <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -23,13 +22,16 @@ export default function Skills() {
                   <span className="w-2 h-2 rounded-full bg-gradient-to-r from-primary to-secondary" />
                   {category.label}
                 </h3>
-                {category.skills.map((skill) => (
-                  <SkillBar
-                    key={skill.name}
-                    name={skill.name}
-                    level={skill.level}
-                  />
-                ))}
+                <div className="flex flex-wrap gap-2">
+                  {category.skills.map((skill) => (
+                    <span
+                      key={skill.name}
+                      className="px-3 py-1.5 text-sm font-mono bg-primary/10 text-text-dark rounded-full border border-primary/20 hover:bg-primary/20 hover:border-primary/40 transition-colors"
+                    >
+                      {skill.name}
+                    </span>
+                  ))}
+                </div>
               </div>
             </ScrollReveal>
           ))}

@@ -117,7 +117,7 @@ export default function Contact() {
 
         <ScrollReveal delay={600}>
           <p className="text-text-light/30 text-sm mt-16">
-            &copy; {new Date().getFullYear()} {resume.personal.name}. Built with Next.js.
+            &copy; {new Date().getFullYear()} {resume.personal.name}.
           </p>
         </ScrollReveal>
       </div>
