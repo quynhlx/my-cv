@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { spaceGrotesk, inter, jetbrainsMono } from "@/lib/fonts";
+import CursorTrail from "@/components/ui/CursorTrail";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
     >
       <body className="font-body bg-bg-light text-text-dark antialiased">
+        <CursorTrail />
         {children}
       </body>
     </html>
